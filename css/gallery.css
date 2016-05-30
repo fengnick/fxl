@@ -1,0 +1,80 @@
+#overlay { 
+position: absolute; top: 0; left: 0; height: 100%; width: 100%; background: black; 
+} 
+
+#photos { 
+border: 1px solid #bebebe; 
+overflow: hidden; 
+position: absolute; 
+left: 5%; top: 1%; 
+width: 85%; 
+height: 10%; 
+/*text-indent: -9999;*/
+} 
+
+#photos ul { 
+list-style-type: none; 
+padding: 0; 
+position: relative; /* otherwise the slide won't work */ 
+} 
+
+#photos li {
+    float: left;
+} 
+
+#photos_inner {
+    margin-top: 0; 
+} 
+
+#pic_panel{
+position: absolute; 
+top: 12%; 
+height: 90%;
+width: 100%;
+}
+
+#pic_title{
+position: absolute; 
+top: 11.5%; left: 12%;
+height: 5%; width: 70%;
+z-index: 10;
+text-align: center; font-size: medium;  font-weight: bold;
+color: green;
+}
+
+#left { left: 2%;} 
+#right { left: 92%; }
+
+#left, #right { 
+top: 3%; 
+font-size: 28px;
+} 
+
+#return { 
+position: absolute; 
+height: 4%;
+left: 96%; top: 4%; 
+alignment-vertical: top;
+z-index: 10;
+}
+
+#a_return {
+width: 2%;
+color: black; 
+}
+
+#left, #right { 
+position: absolute; 
+width: 4%;
+font-weight: bold;
+color: white; 
+z-index: 10; 
+} 
+/*
+#photos trigger { 
+left: 0; position: absolute; top: 0; 
+z-index: 10; 
+height: 100px; width: 200px; 
+display: block;
+}
+*/

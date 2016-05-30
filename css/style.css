@@ -1,0 +1,58 @@
+body
+{
+  height:100%; 
+  
+/*  margin:0; padding:0;	*/
+
+  background-color:black;
+}
+
+A
+{
+  color:#FF9900;
+  font-size: 20px;
+}
+
+A:hover
+{
+  color:#bbdd00;
+}
+
+h1 { font-size: 36px; color: #ff2200; font-weight:strong; 
+     text-align:center; padding-top:30px;
+	 font-family: Sun Yat-sen Hsingshu,STXingkai,KaiTi;
+   }
+   
+.item
+{
+  color:#2277ee;
+  font-size: 18px;
+}
+
+/*
+.listTitle
+{
+  color:darkblue;
+  font-size: 28px;
+  padding-left:20px;
+}
+
+.intro
+{
+  font-size: 26px;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+div.video 
+{
+  position:absolute;
+  left:20%;
+  top: 20%;
+  z-index: 1;
+}
+
+title{ font-weight:strong; text-align:center; }
+
+
+*/

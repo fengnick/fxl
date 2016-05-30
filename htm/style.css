@@ -1,0 +1,65 @@
+body
+{
+  height:100%; margin:0; padding:0;
+
+  background-color:#447744;
+}
+
+A
+{
+  color:purple;
+  font-size: 24px;
+  padding-right:10px;
+}
+
+A:hover
+{
+  color:darkorange;
+}
+
+.itemTitle
+{
+  color:darkblue;
+  font-size: 24px;
+  padding-left:10px;
+}
+
+.item
+{
+  color:black;
+  font-size: 18px;
+}
+
+.listTitle
+{
+  color:darkblue;
+  font-size: 28px;
+  padding-left:20px;
+}
+
+.intro
+{
+  font-size: 20px;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+div.video 
+{
+  background-color:#447744;
+  position:absolute;
+  left:20%;
+  z-index: 1;
+}
+
+h1
+{
+  padding-top:20px;
+  color:darkorange; 
+  font-weight:strong; text-align:center; 
+}
+
+.MsoTitle
+ { 
+   text-align:center; padding-top:20px;
+ }
